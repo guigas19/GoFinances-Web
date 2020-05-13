@@ -25,6 +25,8 @@ const Import: React.FC = () => {
   async function handleUpload(): Promise<void> {
     const data = new FormData();
 
+    if (!uploadedFiles.length) return;
+
     const file = uploadedFiles[0];
 
     data.append('file', file.file, file.name);
