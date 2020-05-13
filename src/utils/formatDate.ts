@@ -1,3 +1,5 @@
+// Arquivo não será mais utilizado na aplicação
+
 import { parseISO, format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
 
